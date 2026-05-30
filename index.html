@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nguyen Hai Yen — International Business student, event organizer, and youth leader.">
+  <title>Nguyen Hai Yen | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">N.H.Y</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greeting">Hello, I'm</p>
+          <h1 class="hero__name">Nguyen Hai Yen</h1>
+          <p class="hero__tagline">International Business Student · Event Organizer · Youth Leader</p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--outline">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero__image-wrap">
+          <div class="hero__image-ring"></div>
+          <img src="assets/avatar.jpg" alt="Nguyen Hai Yen" class="hero__image">
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">About Me</span>
+          <h2 class="section__title">Who I Am</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              Second-year <strong>High Quality International Business</strong> student at
+              <strong>Foreign Trade University</strong>. Passionate about event organization,
+              youth union activities, leadership and business projects.
+            </p>
+            <p>
+              I thrive at the intersection of business and community — bringing people together,
+              leading teams, and turning ideas into memorable experiences.
+            </p>
+          </div>
+          <div class="about__stats reveal">
+            <div class="stat-card">
+              <span class="stat-card__value">3.81</span>
+              <span class="stat-card__label">GPA / 4.0</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__value">7.0</span>
+              <span class="stat-card__label">IELTS Score</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__value">5+</span>
+              <span class="stat-card__label">Major Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Education</span>
+          <h2 class="section__title">My Journey</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Present</span>
+              <h3 class="timeline__title">Foreign Trade University</h3>
+              <p class="timeline__desc">High Quality International Business · GPA 3.81/4.0 · IELTS 7.0</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">High School</span>
+              <h3 class="timeline__title">Bac Ninh High School for Gifted Students</h3>
+              <p class="timeline__desc">Specialized academic program for gifted students</p>
+            </div>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Secondary School</span>
+              <h3 class="timeline__title">Tu Son Secondary School</h3>
+              <p class="timeline__desc">Foundation years of academic excellence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Experience</span>
+          <h2 class="section__title">Where I've Worked</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            </div>
+            <h3 class="card__title">Import Export Intern</h3>
+            <p class="card__subtitle">Tien Quoc Co., Ltd.</p>
+            <p class="card__desc">Gained hands-on experience in international trade operations, import-export documentation, and cross-border business processes.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h3 class="card__title">Head of Organizing Committee</h3>
+            <p class="card__subtitle">FTU Youth Union</p>
+            <p class="card__desc">Led planning and execution of large-scale university events, coordinating teams and managing logistics for youth union activities.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="card__title">Co-founder</h3>
+            <p class="card__subtitle">Lunchie Blindbox</p>
+            <p class="card__desc">Co-founded a creative blindbox lunch concept, combining entrepreneurship with innovative food delivery experiences.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Projects</span>
+          <h2 class="section__title">Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project__number">01</div>
+            <h3 class="project__title">FTU Club Day</h3>
+            <p class="project__desc">A campus-wide celebration showcasing student clubs and fostering community engagement across the university.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__number">02</div>
+            <h3 class="project__title">Youth Month</h3>
+            <p class="project__desc">Month-long series of youth union activities promoting leadership, volunteerism, and student participation.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__number">03</div>
+            <h3 class="project__title">Graduation Ceremony</h3>
+            <p class="project__desc">Organized a memorable graduation event honoring academic achievements and celebrating new beginnings.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__number">04</div>
+            <h3 class="project__title">Military 2025</h3>
+            <p class="project__desc">Coordinated logistics and programming for the university's military training program activities.</p>
+          </article>
+          <article class="project reveal">
+            <div class="project__number">05</div>
+            <h3 class="project__title">Lunchie Blindbox</h3>
+            <p class="project__desc">Entrepreneurial venture delivering surprise lunch boxes — blending creativity, food, and business innovation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Skills</span>
+          <h2 class="section__title">What I Bring</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill reveal">
+            <div class="skill__bar" data-level="95"></div>
+            <div class="skill__info">
+              <span class="skill__name">Event Organization</span>
+              <span class="skill__pct">95%</span>
+            </div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__bar" data-level="90"></div>
+            <div class="skill__info">
+              <span class="skill__name">Leadership</span>
+              <span class="skill__pct">90%</span>
+            </div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__bar" data-level="88"></div>
+            <div class="skill__info">
+              <span class="skill__name">Communication</span>
+              <span class="skill__pct">88%</span>
+            </div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__bar" data-level="85"></div>
+            <div class="skill__info">
+              <span class="skill__name">Project Management</span>
+              <span class="skill__pct">85%</span>
+            </div>
+          </div>
+          <div class="skill reveal">
+            <div class="skill__bar" data-level="92"></div>
+            <div class="skill__info">
+              <span class="skill__name">English</span>
+              <span class="skill__pct">92%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-tags reveal">
+          <span class="tag">Event Organization</span>
+          <span class="tag">Leadership</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">English</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <div class="section__header section__header--light">
+            <span class="section__label">Contact</span>
+            <h2 class="section__title">Let's Connect</h2>
+            <p class="contact__intro">Interested in collaborating or learning more? I'd love to hear from you.</p>
+          </div>
+          <div class="contact__links">
+            <a href="mailto:nghaiyen2102@gmail.com" class="contact__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>nghaiyen2102@gmail.com</span>
+            </a>
+            <a href="tel:+84888210206" class="contact__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>0888 210 206</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Nguyen Hai Yen. All rights reserved.</p>
+      <a href="#hero" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
